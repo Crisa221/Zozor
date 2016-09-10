@@ -42,7 +42,40 @@ body
 
 section h1, footer h1, nav a
 {
-  font-family: Dayrom, serif;
+  font-family: 'Dayrom', serif; /* Nell'esempio originale non mette le virgolette nel font-family */
   font-weight: normal;
   text-transform: uppercase;
+}
+
+
+/* dichiaro l'Header */
+header
+{
+  background: url('images/line.png');
+}
+
+#main_title
+{
+  display: inline-block;
+}
+
+header h1
+{
+  font-family: 'Ballparkweiner', serif;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+#logo, header h1
+{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+header h2
+{
+  font-family: 'Dayrom', serif; /* Anche qui si dimentica le virgolette nel font-family */
+  font-size: 1.1em;
+  margin-top: 0px;
+  font-weight: normal;
 }
