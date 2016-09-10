@@ -51,7 +51,7 @@ section h1, footer h1, nav a
 /* dichiaro l'Header */
 header
 {
-  background: url('images/line.png');
+  background: url('images/line.png'); /* manca la linea, per sopperire o si fa un margin oppure si crea la linea con paint ;) */
 }
 
 #main_title
