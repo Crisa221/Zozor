@@ -1,6 +1,7 @@
 /* Qui dichiaro il mio custon font*/
 
-@@font-face {
+@font-face
+{
   font-family: 'BallparkWeiner';
   src:url('polices/ballpark.eot'),
   src:url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
@@ -12,7 +13,8 @@
 }
 
 
-@font-face {
+@font-face
+{
   font-family: 'Dayrom';
   src: url('polices/dayrom.eot');
   src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
@@ -21,4 +23,26 @@
        url('polices/dayrom.svg#Dayrom') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+/* Sezione dove dichiaro gli elementi della pagina */
+
+body
+{
+  background-color: yellow; /* in mancanza del background ho messo semplicemente il colore giallo */
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: black;
+}
+
+#main_wrapper /* questo viene dichiarato per un id */
+{
+  width: 900px;
+  margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+  font-family: Dayrom, serif;
+  font-weight: normal;
+  text-transform: uppercase;
 }
